@@ -305,6 +305,20 @@
     </span>
 
   
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus：</span>
+    
+    <a title="disqus" href="/2017/05/26/%E5%85%B3%E7%B3%BB%E5%A4%A7%E5%B0%8F%E8%B0%83-1/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2017/05/26/关系大小调-1/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
 </div>
 
         </div>
@@ -369,6 +383,13 @@
 
 
 
+    
+  <div class="comments">
+    <div id="disqus_thread">
+      <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+    </div>
+  </div>
+  
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -430,6 +451,37 @@
 
 
 
+
+<script>
+  function loadCount() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://bunwen.disqus.com/count.js';
+    s.id = 'dsq-count-scr';
+    (d.head || d.body).appendChild(s);
+  }
+  // defer loading until the whole page loading is completed
+  window.addEventListener('load', loadCount, false);
+</script>
+<script>
+  var disqus_config = function() {
+    this.page.url = "https://bunwen.github.io/2017/05/26/%E5%85%B3%E7%B3%BB%E5%A4%A7%E5%B0%8F%E8%B0%83-1/";
+    this.page.identifier = "2017/05/26/关系大小调-1/";
+    this.page.title = "乐理第一章";
+    };
+  NexT.utils.loadComments('#disqus_thread', () => {
+    if (window.DISQUS) {
+      DISQUS.reset({
+        reload: true,
+        config: disqus_config
+      });
+    } else {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://bunwen.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', '' + +new Date());
+      (d.head || d.body).appendChild(s);
+    }
+  });
+</script>
 
 </body>
 </html>
