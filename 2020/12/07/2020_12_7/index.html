@@ -30,9 +30,9 @@
 <meta property="og:site_name" content="bunwen的博客">
 <meta property="og:description" content="记录遇到的一个神奇BUG、以及它的解决办法 问题描述如果当前的ViewController是Navgation的rootViewController的情况下，点击Push到另一个页面时候，立即左滑返回，页面会卡死、并且会发生一些诡异的事情  有时Tabbar会消失、在这个阶段ViewController还没有被Push出来 继续使用左滑返回手势的话，页面会从右边慢慢滑出来 有时ViewContro">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://bunwen.github.io/2020/12/07/2020_12_7/media/16073216502518/IMG_0093.jpg">
+<meta property="og:image" content="https://bunwen.github.io/2020/12/07/2020_12_7/media/Code/iOS/2020/12_7/001.jpg">
 <meta property="article:published_time" content="2020-12-07T06:20:57.000Z">
-<meta property="article:modified_time" content="2020-12-07T06:57:54.000Z">
+<meta property="article:modified_time" content="2020-12-07T07:09:40.000Z">
 <meta property="article:author" content="Bunwen">
 <meta property="article:tag" content="iOS">
 <meta property="article:tag" content="Objective-C">
@@ -41,7 +41,7 @@
 <meta property="article:tag" content="BUG">
 <meta property="article:tag" content="返回手势">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://bunwen.github.io/2020/12/07/2020_12_7/media/16073216502518/IMG_0093.jpg">
+<meta name="twitter:image" content="https://bunwen.github.io/2020/12/07/2020_12_7/media/Code/iOS/2020/12_7/001.jpg">
 
 
 <link rel="canonical" href="https://bunwen.github.io/2020/12/07/2020_12_7/">
@@ -294,7 +294,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2020-12-07 14:20:57 / 修改时间：14:57:54" itemprop="dateCreated datePublished" datetime="2020-12-07T14:20:57+08:00">2020-12-07</time>
+      <time title="创建时间：2020-12-07 14:20:57 / 修改时间：15:09:40" itemprop="dateCreated datePublished" datetime="2020-12-07T14:20:57+08:00">2020-12-07</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -341,7 +341,7 @@
 <li>有时ViewController确实被push出来显示在界面上了、但是啥都点不了了。界面卡死、但是并没有发生崩溃、或者内存、CPU占用异常的情况</li>
 </ul>
 <p>这个时候进入视图层级会发现在页面的最上层，有一个叫做 _UIParallaxDimmingView 的视图挡在了Window上，拦截掉了你所有的点击事件</p>
-<p><img src="media/16073216502518/IMG_0093.jpg" alt="IMG_0093"></p>
+<p><img src="media/Code/iOS/2020/12_7/001.jpg" alt="层级展示"></p>
 <p>这个 _UIParallaxDimmingView 是一个私有类、我找了一通并没有发现相关的文档说明它具体是个什么东西，只能从名称上来猜测这是控制Push和Pop时左侧的渐渐暗度变化的一个东西 那么我们遇到的问题估计就是下面的这个过程：</p>
 <ul>
 <li>当页面开始push后navgation会启用_UIParallaxDimmingView作为临时页面过渡动画、这时navigation的左滑已经启用，立即返回后_UIParallaxDimmingView会来不及删除，导致它留在页面上卡死了所有的响应</li>
