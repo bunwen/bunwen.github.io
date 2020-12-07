@@ -6,7 +6,7 @@
   <link href="https://bunwen.github.io/atom.xml" rel="self"/>
   
   <link href="https://bunwen.github.io/"/>
-  <updated>2020-12-03T06:44:23.000Z</updated>
+  <updated>2020-12-07T06:57:54.000Z</updated>
   <id>https://bunwen.github.io/</id>
   
   <author>
@@ -17,35 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>测试一下文章标题</title>
-    <link href="https://bunwen.github.io/2020/12/01/%E6%AC%A2%E8%BF%8E%E4%BD%BF%E7%94%A8%20MWeb.md.bak/"/>
-    <id>https://bunwen.github.io/2020/12/01/%E6%AC%A2%E8%BF%8E%E4%BD%BF%E7%94%A8%20MWeb.md.bak/</id>
-    <published>2020-12-01T04:12:57.000Z</published>
-    <updated>2020-12-03T06:44:23.000Z</updated>
+    <title>iOS PushViewController 时使用返回手势页面卡死的问题</title>
+    <link href="https://bunwen.github.io/2020/12/07/2020_12_7/"/>
+    <id>https://bunwen.github.io/2020/12/07/2020_12_7/</id>
+    <published>2020-12-07T06:20:57.000Z</published>
+    <updated>2020-12-07T06:57:54.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="欢迎使用-MWeb"><a href="#欢迎使用-MWeb" class="headerlink" title="欢迎使用 MWeb"></a>欢迎使用 MWeb</h1><p>MWeb 是专业的 Markdown 写作、记笔记、静态博客生成软件，目前已支持 Mac，iPad 和 iPhone。MWeb 有以下特色：</p><h2 id="软件本身："><a href="#软件本身：" class="headerlink" title="软件本身："></a>软件本身：</h2><ul><li>使用原生的 macOS 技术打造，追求与系统的完美结合。</li><li>原则上，首先是追求界面简洁和高性能，然后才是强大易用，功能全面。</li></ul><h2 id="Markdown-语法："><a href="#Markdown-语法：" class="headerlink" title="Markdown 语法："></a>Markdown 语法：</h2><ul><li>使用 GitHub Flavored Markdown 语法，简称 GFM 语法。</li><li>支持表格、TOC、LaTeX、代码块、任务列表、脚注等。</li><li>画图库支持 mermaid, viz, ECharts, PlantUML, Sequence, Flow。</li></ul><h2 id="Markdown-辅助："><a href="#Markdown-辅助：" class="headerlink" title="Markdown 辅助："></a>Markdown 辅助：</h2><ul><li>支持截图并粘贴、复制并粘贴、拖拽等方式插入图片并直接显示在编辑器内。</li><li>在兼容 Markdown 语法的情况下支持设置图片宽度。</li><li>好用的表格插入和 LaTeX 书写辅助。</li></ul><a id="more"></a><h2 id="Markdown-输出："><a href="#Markdown-输出：" class="headerlink" title="Markdown 输出："></a>Markdown 输出：</h2><ul><li>支持导出为图片、HTML、Epub、PDF、RTF、Docx。</li><li>支持发布到 WordPress、支持 Metaweblog API 协议的服务、Wordpress.com、印象笔记（Evernote）、Blogger、Medium、Tumblr、语雀、Ghost、少数派 Matrix。</li><li>图片上传服务（图床）支持 Imgur、七牛云、又拍云、腾讯云 COS、阿里云 OSS、SM.MS和自定义的图床服务。</li></ul><h2 id="Markdown-笔记："><a href="#Markdown-笔记：" class="headerlink" title="Markdown 笔记："></a>Markdown 笔记：</h2><ul><li>强大的文档库支持分类树和标签管理文档，文档可归类于多个分类，可以把分类整个导出为 Epub、PDF 和生成静态网站。非常合适用于笔记、个人知识收集、管理和输出。</li><li>快速笔记：随意增加笔记及图片等素材，支持以天为单位把增加的素材组合在一个文档内，方便整理及记录历史收集情况。</li><li>快速搜索：目前已支持全局快捷键调出搜索。</li></ul><h2 id="外部-Markdown-文档："><a href="#外部-Markdown-文档：" class="headerlink" title="外部 Markdown 文档："></a>外部 Markdown 文档：</h2><ul><li>外部 Markdown 文档使用外部模式管理。外部模式使用目录树的方式编辑和管理你的 Markdown 文档，还能很好的支持 GitBook、Jekyll、Hexo 等等编辑和图片插入。</li></ul><h2 id="MWeb-文档："><a href="#MWeb-文档：" class="headerlink" title="MWeb 文档："></a>MWeb 文档：</h2><p>如果要更详细了解 MWeb，建议你一定要去看一下官网的帮助文档，网址为：<a href="https://zh.mweb.im/help.html">https://zh.mweb.im/help.html</a>。我们建议在使用文档库之前，一定要阅读一下 <a href="https://zh.mweb.im/mweb-library.html">MWeb 文档库详细介绍</a> 这篇文章，以便更好的使用文档库。</p><h2 id="帮助我们改进-MWeb"><a href="#帮助我们改进-MWeb" class="headerlink" title="帮助我们改进 MWeb"></a>帮助我们改进 MWeb</h2><p>如果你喜欢 MWeb，想让它变得更好，你可以：</p><ol><li>推荐 MWeb，让更多的人知道。</li><li>给我们发反馈和建议：<a href="mailto:&#99;&#x6f;&#100;&#x65;&#x72;&#102;&#111;&#114;&#97;&#x72;&#116;&#43;&#x32;&#51;&#51;&#x33;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">&#99;&#x6f;&#100;&#x65;&#x72;&#102;&#111;&#114;&#97;&#x72;&#116;&#43;&#x32;&#51;&#51;&#x33;&#64;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a></li><li>在 Mac App Store 上评价 （如果是在 MAS 上购买的话）。</li></ol>]]></content>
+    <content type="html"><![CDATA[<p>记录遇到的一个神奇BUG、以及它的解决办法</p><h1 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h1><p>如果当前的ViewController是Navgation的rootViewController的情况下，点击Push到另一个页面时候，立即左滑返回，页面会卡死、并且会发生一些诡异的事情</p><ul><li>有时Tabbar会消失、在这个阶段ViewController还没有被Push出来 继续使用左滑返回手势的话，页面会从右边慢慢滑出来</li><li>有时ViewController确实被push出来显示在界面上了、但是啥都点不了了。界面卡死、但是并没有发生崩溃、或者内存、CPU占用异常的情况</li></ul><p>这个时候进入视图层级会发现在页面的最上层，有一个叫做 _UIParallaxDimmingView 的视图挡在了Window上，拦截掉了你所有的点击事件</p><p><img src="media/16073216502518/IMG_0093.jpg" alt="IMG_0093"></p><p>这个 _UIParallaxDimmingView 是一个私有类、我找了一通并没有发现相关的文档说明它具体是个什么东西，只能从名称上来猜测这是控制Push和Pop时左侧的渐渐暗度变化的一个东西 那么我们遇到的问题估计就是下面的这个过程：</p><ul><li>当页面开始push后navgation会启用_UIParallaxDimmingView作为临时页面过渡动画、这时navigation的左滑已经启用，立即返回后_UIParallaxDimmingView会来不及删除，导致它留在页面上卡死了所有的响应</li></ul><p>那么知道这个东西大概和返回手势有关系过后大概也就知道怎么解决它了</p><h1 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h1><p>在Navgation的基类或者runtime或者category之类的 总之在Navgation 的delegate 在show到第二个页面时，也就是下面这个代理执行的时候</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">- (void)navigationController:(UINavigationController *)navigationController didShowViewController:(UIViewController *)viewController animated:(BOOL)animated;</span><br></pre></td></tr></table></figure><p>检测当前的Controller是否是Navigation的rootViewController 然后动态关闭开启 左滑手势</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">- (void)navigationController:(UINavigationController *)navigationController didShowViewController:(UIViewController *)viewController animated:(BOOL)animated &#123;</span><br><span class="line">    if ([self respondsToSelector:@selector(interactivePopGestureRecognizer)]) &#123;</span><br><span class="line">        self.interactivePopGestureRecognizer.enabled &#x3D; self.viewControllers.count &gt; 1;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>问题解决</p>]]></content>
     
     
-    <summary type="html">&lt;h1 id=&quot;欢迎使用-MWeb&quot;&gt;&lt;a href=&quot;#欢迎使用-MWeb&quot; class=&quot;headerlink&quot; title=&quot;欢迎使用 MWeb&quot;&gt;&lt;/a&gt;欢迎使用 MWeb&lt;/h1&gt;&lt;p&gt;MWeb 是专业的 Markdown 写作、记笔记、静态博客生成软件，目前已支持 Mac，iPad 和 iPhone。MWeb 有以下特色：&lt;/p&gt;
-&lt;h2 id=&quot;软件本身：&quot;&gt;&lt;a href=&quot;#软件本身：&quot; class=&quot;headerlink&quot; title=&quot;软件本身：&quot;&gt;&lt;/a&gt;软件本身：&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;使用原生的 macOS 技术打造，追求与系统的完美结合。&lt;/li&gt;
-&lt;li&gt;原则上，首先是追求界面简洁和高性能，然后才是强大易用，功能全面。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;Markdown-语法：&quot;&gt;&lt;a href=&quot;#Markdown-语法：&quot; class=&quot;headerlink&quot; title=&quot;Markdown 语法：&quot;&gt;&lt;/a&gt;Markdown 语法：&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;使用 GitHub Flavored Markdown 语法，简称 GFM 语法。&lt;/li&gt;
-&lt;li&gt;支持表格、TOC、LaTeX、代码块、任务列表、脚注等。&lt;/li&gt;
-&lt;li&gt;画图库支持 mermaid, viz, ECharts, PlantUML, Sequence, Flow。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;Markdown-辅助：&quot;&gt;&lt;a href=&quot;#Markdown-辅助：&quot; class=&quot;headerlink&quot; title=&quot;Markdown 辅助：&quot;&gt;&lt;/a&gt;Markdown 辅助：&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;支持截图并粘贴、复制并粘贴、拖拽等方式插入图片并直接显示在编辑器内。&lt;/li&gt;
-&lt;li&gt;在兼容 Markdown 语法的情况下支持设置图片宽度。&lt;/li&gt;
-&lt;li&gt;好用的表格插入和 LaTeX 书写辅助。&lt;/li&gt;
-&lt;/ul&gt;</summary>
+      
+      
+    <summary type="html">&lt;p&gt;记录遇到的一个神奇BUG、以及它的解决办法&lt;/p&gt;
+&lt;h1 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot; title=&quot;问题描述&quot;&gt;&lt;/a&gt;问题描述&lt;/h1&gt;&lt;p&gt;如果当前的ViewController是Navgation的roo</summary>
+      
     
     
     
-    <category term="关于" scheme="https://bunwen.github.io/categories/%E5%85%B3%E4%BA%8E/"/>
+    <category term="编程" scheme="https://bunwen.github.io/categories/%E7%BC%96%E7%A8%8B/"/>
     
+    <category term="iOS" scheme="https://bunwen.github.io/categories/%E7%BC%96%E7%A8%8B/iOS/"/>
+    
+    
+    <category term="iOS" scheme="https://bunwen.github.io/tags/iOS/"/>
+    
+    <category term="Objective-C" scheme="https://bunwen.github.io/tags/Objective-C/"/>
+    
+    <category term="UIViewController" scheme="https://bunwen.github.io/tags/UIViewController/"/>
+    
+    <category term="UINavigationController" scheme="https://bunwen.github.io/tags/UINavigationController/"/>
+    
+    <category term="BUG" scheme="https://bunwen.github.io/tags/BUG/"/>
+    
+    <category term="返回手势" scheme="https://bunwen.github.io/tags/%E8%BF%94%E5%9B%9E%E6%89%8B%E5%8A%BF/"/>
     
   </entry>
   
@@ -53,38 +57,6 @@
     <title>乐理第一章</title>
     <link href="https://bunwen.github.io/2020/03/26/%E5%85%B3%E7%B3%BB%E5%A4%A7%E5%B0%8F%E8%B0%83/"/>
     <id>https://bunwen.github.io/2020/03/26/%E5%85%B3%E7%B3%BB%E5%A4%A7%E5%B0%8F%E8%B0%83/</id>
-    <published>2020-03-26T04:12:57.000Z</published>
-    <updated>2020-12-04T05:27:54.757Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="关系大小调"><a href="#关系大小调" class="headerlink" title="关系大小调"></a>关系大小调</h1>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;关系大小调&quot;&gt;&lt;a href=&quot;#关系大小调&quot; class=&quot;headerlink&quot; title=&quot;关系大小调&quot;&gt;&lt;/a&gt;关系大小调&lt;/h1&gt;</summary>
-      
-    
-    
-    
-    <category term="乐理" scheme="https://bunwen.github.io/categories/%E4%B9%90%E7%90%86/"/>
-    
-    
-    <category term="乐理" scheme="https://bunwen.github.io/tags/%E4%B9%90%E7%90%86/"/>
-    
-    <category term="关系大小调" scheme="https://bunwen.github.io/tags/%E5%85%B3%E7%B3%BB%E5%A4%A7%E5%B0%8F%E8%B0%83/"/>
-    
-    <category term="和弦级数" scheme="https://bunwen.github.io/tags/%E5%92%8C%E5%BC%A6%E7%BA%A7%E6%95%B0/"/>
-    
-    <category term="和弦属性" scheme="https://bunwen.github.io/tags/%E5%92%8C%E5%BC%A6%E5%B1%9E%E6%80%A7/"/>
-    
-    <category term="大小调" scheme="https://bunwen.github.io/tags/%E5%A4%A7%E5%B0%8F%E8%B0%83/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>乐理第一章</title>
-    <link href="https://bunwen.github.io/2020/03/26/%E5%85%B3%E7%B3%BB%E5%A4%A7%E5%B0%8F%E8%B0%83.md.bak/"/>
-    <id>https://bunwen.github.io/2020/03/26/%E5%85%B3%E7%B3%BB%E5%A4%A7%E5%B0%8F%E8%B0%83.md.bak/</id>
     <published>2020-03-26T04:12:57.000Z</published>
     <updated>2020-12-03T07:54:16.000Z</updated>
     
